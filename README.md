@@ -48,7 +48,7 @@ Settings should go in your `LocalSettings.php` file **after** including the exte
 // ...
 require_once "$IP/extensions/HideSubpageParents/HideSubpageParents.php";
 
-wgHideSubpageParentsMainNSOnly = false;
+$wgHideSubpageParentsMainNSOnly = false;
 // ...
 ```
 
